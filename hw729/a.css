@@ -1,0 +1,194 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	width:100%;
+ 	height:50px;
+ 	background-color: #F1F1F1;
+}
+#googleplay{
+	margin: 10px 0px 0px 20px;
+	float:left;
+}
+
+#googleplay img{
+	width:183px; 
+	height: 39px;
+}
+header .search{
+margin: 15px 0px 0px 50px;
+float:left;
+}
+
+form .searchbox{
+width: 400px;
+height: 20px;
+float:left;
+}
+
+header .lglass{
+	width:33px;
+	height:27px;
+	border: 0px;
+	background-color:#4387fd;
+}
+
+#buttons{
+	float:right;
+	margin: 10px 20px 0px 0px;
+}
+#buttons button{
+margin: 10px 10px 0px 0px;
+border:0px;
+background-color: #F1F1F1;
+}
+
+#buttons #login{
+background-color: #4387fd;
+color:#ffffff;
+width:70px;
+height:35px;
+}
+
+form{
+	display:inline;
+	margin-top: 0;
+}
+
+body{
+	background-color: #F1F1F1;
+	margin:0;
+}
+
+ul{
+	list-style: none;
+	color: darkgray;
+	line-height: 1.6em;
+	margin:10px;
+	padding:10px;
+	font-weight: bold;
+}
+#vertical{
+	width:200px;
+	height:240px;
+	position:absolute;
+	background:#F1F1F1;
+}
+#horizontal{
+	height:50px;
+	width:1000px;
+	padding-left: 200px;
+	display:inline;
+	float:left;
+	margin-top: none;
+	background-color: #ffffff;
+}
+
+#horizonline li{
+	display:inline;
+	margin-right:20px;
+}
+#horizontal #horizonline #horizonbutton{
+float:right;
+}
+
+#content{
+	margin:0;
+	padding-left:200px;
+}
+#content h1{
+	font-weight: bold;
+	font-size:25px;
+}
+#content #bestseller .upperline{
+float:left;
+display:block;
+margin-top: 10px;
+width:1000px;
+height:80px;
+}
+
+#content .more{
+float:right;
+background-color: #4387fd;
+color:#ffffff;
+width:70px;
+height:35px;
+
+}
+
+#fantasy_discount{
+
+}
+#content .listofbooks li.book{
+	display:inline-block;
+	width: 140px;
+}
+#content .book a{
+	display:block;
+}
+.listofbooks .book .bookname{
+	color:black;
+	font-size:16px;
+}
+
+.listofbooks .book. .author{
+	color:darkgray;
+	font-size: 12px;
+}
+
+.listofbooks .book .price{
+	color:skyblue;
+	font-size: 10px;
+}
+#content .listofbooks .book img{
+width: 140px;
+height: 175px;
+}
